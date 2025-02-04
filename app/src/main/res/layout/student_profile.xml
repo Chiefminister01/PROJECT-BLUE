@@ -1,0 +1,407 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/rxdzye8zrub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F6F6F6">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/r8r0tiwdhfly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="#EEEEEE"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="21dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rr7auy6doksl"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_marginBottom="103dp"
+                android:background="#FFFFFF"
+                android:elevation="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="15dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_1"
+                    app:shapeAppearanceOverlay="@style/cr20" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="PROFILE INFO"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/settingsIcon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <ImageView
+                    android:id="@+id/settingsIcon7"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher" />
+
+                <ImageView
+                    android:id="@+id/settingsIcon8"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rgiuv9syvxfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/rfvvc2fsrtxk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cr8bffffff"
+                        android:elevation="4dp"
+                        android:orientation="vertical"
+                        android:paddingHorizontal="24dp"
+                        android:paddingTop="35dp"
+                        android:paddingBottom="6dp">
+
+                        <TextView
+                            android:id="@+id/rbjamje9n48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="47dp"
+                            android:text="THARUN R"
+                            android:textColor="#292929"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/rfmjgipd1vn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rd4pptow99mr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Student No.:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/r31f1dp5l85k"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="192210662"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rk60kb30ef5c"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rfzrrxzqrryl"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Course:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/rbe62nz0540h"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="B tech in Information Technology"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rqfkj6e5y0bj"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="42dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rqhd7rkuna9e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Year &amp; Sec:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/rdm2zm2mdhhj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3rd Year, 2022"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r97pn5tpgzxq"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginBottom="46dp"
+                            android:background="#F3F3F3"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rftjmn55ig8g"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/r6rso9afhrgx"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Birth Date:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/r2g0hwa8dkjj"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="23-05-2005"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rittuztxtne"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="17dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rcjyap81bzt8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Gender: "
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/rfv4ug4dxeq"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Male"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r27n8eofgawo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="44dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rhqorf4ep5qf"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Nationality:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/r1n2i72f4otl"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Indian"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r9j6h42dil4"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginBottom="45dp"
+                            android:background="#F3F3F3"
+                            android:orientation="vertical"></LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rmq578bbhjks"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="18dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rv9wops07z9i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Email:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/rj3jhra4tb0m"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="tharun2005@gmail.com"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/re2d3q1tj23m"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="18dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rvpbng0mx6k"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Contact #: "
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/rog0m7pos9ks"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9843317744"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/rs933vguz1c9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/rzr822ve5an"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="4dp"
+                                android:layout_weight="1"
+                                android:text="Address:"
+                                android:textColor="#727272"
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/r0o47de4xt7v"
+                                android:layout_width="181dp"
+                                android:layout_height="wrap_content"
+                                android:text="68, SMALL STREET KAMMAPALAYAM, JAMMUKULAM POST, SHOLINGAR TALUK, RANIPET"
+                                android:textColor="#2C2C2C"
+                                android:textSize="13sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/rg6f05cj96sp"
+                    android:layout_width="68dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="35dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_1"
+                    app:shapeAppearanceOverlay="@style/cr20" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Profile Section -->
+        <LinearLayout
+            android:id="@+id/profileSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profileImage"
+                app:shapeAppearanceOverlay="@style/cr20"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/img_1"
+                android:scaleType="fitXY"/>
+
+                <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="THARUN R"
+                    android:gravity="start"/>
+
+                <TextView
+                    android:id="@+id/idTextView"
+                    android:textColor="#9D9D9D"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="192210662"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/settingsIcon3"
+                android:layout_width="23dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+            <ImageView
+                android:id="@+id/settingsIcon1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="16dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/settingsIcon2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="16dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <!-- Enrollment Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enrollment"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Slot Selection Dropdown -->
+        <Spinner
+            android:id="@+id/slotSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <!-- Status Labels -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approved"
+                android:background="#4CAF50"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pending for Approval"
+                android:background="#FFC107"
+                android:textColor="#000000"
+                android:padding="8dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rejected"
+                android:background="#F44336"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Course List Table -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <!-- Table Header -->
+            <TableRow
+                android:background="#263238"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Course"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Details"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seats Available"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16dp"/>
+            </TableRow>
+
+            <!-- Course 1 -->
+            <TableRow
+                android:padding="8dp"
+                android:background="#FFFFFF">
+
+                <RadioButton
+                    android:id="@+id/course1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BDT1ATN - Applied Physics and Chemistry - Dr. Vidhya T K"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27"
+                    android:layout_marginLeft="16dp"/>
+            </TableRow>
+
+            <!-- Course 2 -->
+            <TableRow
+                android:padding="8dp"
+                android:background="#FFFFFF">
+
+                <RadioButton
+                    android:id="@+id/course2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CSA0704 - Computer Networks for Data Communication - Dr. Balamurugan K"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginLeft="16dp"/>
+            </TableRow>
+
+            <!-- Course 3 -->
+            <TableRow
+                android:padding="8dp"
+                android:background="#E0E0E0">
+
+                <RadioButton
+                    android:id="@+id/course3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UBA0604 - Applied Mathematics and Its Impact on Convolutional Networks - Dr. Ramesh A"
+                    android:layout_marginLeft="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="38"
+                    android:layout_marginLeft="16dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <!-- Enroll Button -->
+        <Button
+            android:id="@+id/enrollButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enroll"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
