@@ -30,6 +30,36 @@
             android:exported="false"/>
         <activity android:name=".AboutUs"
             android:exported="false"/>
+        <activity android:name=".AddProfile"
+            android:exported="false"/>
+        <activity android:name=".AdminHomeScreen"
+            android:exported="false"/>
+        <activity android:name=".AdminMessage"
+            android:exported="false"/>
+        <activity android:name=".AdminRegisterPage"
+            android:exported="false"/>
+        <activity android:name=".AdminSurveyReport"
+            android:exported="false"/>
+        <activity android:name=".StudentEnrollment"
+            android:exported="false"/>
+        <activity android:name=".StudentHomeScreen"
+            android:exported="false"/>
+        <activity android:name=".StudentProfile"
+            android:exported="false"/>
+        <activity android:name=".StudentSurvey"
+            android:exported="false"/>
+        <activity android:name=".StudentToDo$StudentToDot"
+            android:exported="false"/>
+        <activity android:name=".TeacherCourseApproval"
+            android:exported="false"/>
+        <activity android:name=".TeacherCourseCreation"
+            android:exported="false"/>
+        <activity android:name=".TeacherCourseMessage"
+            android:exported="false"/>
+        <activity android:name=".TeacherHomeScreen"
+            android:exported="false"/>
+
+
 
     </application>
 

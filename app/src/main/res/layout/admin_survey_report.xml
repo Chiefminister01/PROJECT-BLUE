@@ -1,166 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp"
     android:background="@android:color/white">
 
+    <!-- Profile Section -->
     <LinearLayout
+        android:id="@+id/profileSection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profileImage"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/img_1"
+            android:scaleType="fitXY"/>
+
         <LinearLayout
-            android:id="@+id/profileSection"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="#FFFFFF"
-            android:padding="16dp"
-            android:elevation="4dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="16dp">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/profileImage"
-
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/img_1"
-                android:scaleType="fitXY"/>
-
-            <LinearLayout
-                android:layout_width="0dp"
+            <TextView
+                android:id="@+id/nameTextView"
+                android:textColor="#000000"
+                android:textSize="16sp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:layout_width="match_parent"
+                android:text="ADMINISTRATOR"
+                android:gravity="start"/>
 
-                <TextView
-                    android:id="@+id/nameTextView"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:text="ADMINISTRATOR"
-                    android:gravity="start"/>
-
-                <TextView
-                    android:id="@+id/idTextView"
-                    android:textColor="#9D9D9D"
-                    android:textSize="12sp"
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content"
-                    android:text="SSETSEC119"/>
-            </LinearLayout>
-
-            <ImageView
-                android:id="@+id/icon1"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_marginEnd="16dp"
-                android:src="@mipmap/ic_launcher"
-                android:scaleType="fitXY"/>
-
-
+            <TextView
+                android:id="@+id/idTextView"
+                android:textColor="#9D9D9D"
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="SSETSEC119"/>
         </LinearLayout>
 
-        <!-- Title -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Administrative Survey Report"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black"
-            android:layout_gravity="center"
-            android:layout_marginBottom="20dp"/>
-
-        <!-- Table Layout -->
-        <TableLayout
-            android:id="@+id/tableLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:stretchColumns="*"
-            android:background="@android:color/darker_gray">
-
-            <!-- Table Header Row -->
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:text="S.No"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="2"
-                    android:text="Course Code"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="3"
-                    android:text="Course Name"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="2"
-                    android:text="Total Enrolled"
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-            </TableRow>
-
-            <!-- Sample Row (Can be dynamically added in Java) -->
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/white">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:text="1"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="2"
-                    android:text="CS101"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="3"
-                    android:text="Computer Science"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_weight="2"
-                    android:text="150"
-                    android:padding="8dp"
-                    android:gravity="center"/>
-            </TableRow>
-
-        </TableLayout>
-
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitXY"/>
     </LinearLayout>
-</ScrollView>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Administrative Survey Report"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="339dp"
+        android:background="@android:color/darker_gray" />
+</LinearLayout>
