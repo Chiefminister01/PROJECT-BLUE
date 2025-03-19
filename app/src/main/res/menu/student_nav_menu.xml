@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/logo"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+         android:icon="@drawable/logo"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="AboutUs"
+        android:icon="@drawable/img"/>
+
+
+    <item
+        android:id="@+id/Survey"
+        android:title="Course Survey"
+        android:icon="@drawable/logo"/>
+
+
+    <item
+        android:id="@+id/nav_enr"
+        android:title="Enrollments"
+        android:icon="@drawable/logo"/>
+    <item
+        android:id="@+id/nav_staffmsg"
+        android:title="Principal Notification"
+        android:icon="@drawable/logo"/>
+    <item
+        android:id="@+id/nav_conus"
+        android:title="Contact US"
+        android:icon="@drawable/logo"/>
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logo"/>
+
+</menu>

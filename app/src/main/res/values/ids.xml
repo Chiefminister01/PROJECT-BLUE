@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="serialNumber" type="id">01</item>
-    <item name="courseCode" type="id">CSA05</item>
-    <item name="courseName" type="id">DataBaseManagementSystem</item>
-    <item name="totalEnrolled" type="id">40</item>
-</resources>
